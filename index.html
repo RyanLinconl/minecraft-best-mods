@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Best Mods</title>
+    <link rel="icon" href="Imagens/IconMine.png" type="image/png">
+    <link rel="apple-touch-icon" href="Imagens/IconMine.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+             <label for="menu" class="container__rotulo">
+                <span class="cabecalho_menu-hamburger container_imagem"></span>
+             </label>
+             <ul class="lista-menu">
+                 <li class="lista-menu_titulo">Categorias</li>
+                 <li class="lista-menu_item">
+                     <a href="#" class="lista-menu__link">Programação</a>
+                 </li>
+                 <li class="lista-menu_item">
+                    <a href="#" class="lista-menu__link">Front-End</a>
+                 </li>
+                 <li class="lista-menu_item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                 </li>
+                 <li class="lista-menu_item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                 </li>               
+                 <li class="lista-menu_item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                 </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+             </ul>
+            <img src="Imagens/MineLogo.svg" alt="Logo do Minecraft Best Mods">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Best</b>Mods</h1>
+        </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu" class="opcoes__rotulo">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu__link">Mágia</a>
+                </li>
+                <li class="lista-menu_item">
+                   <a href="#" class="lista-menu__link">Aventura & RPG</a>
+                </li>
+                <li class="lista-menu_item">
+                   <a href="#" class="lista-menu__link">Técnologia</a>
+                </li>
+                <li class="lista-menu_item">
+                   <a href="#" class="lista-menu__link">Decoração</a>
+                </li>               
+                <li class="lista-menu_item">
+                   <a href="#" class="lista-menu__link">Alquimia</a>
+                </li>
+               <li class="lista-menu_item">
+                   <a href="#" class="lista-menu__link">Armas & Armaduras</a>
+               </li>
+            </ul>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Meus Mods</a></li>
+        </ul>
+
+
+        <div class="container">
+            <a href="#"><img src="Imagens/Favoritos.svg" alt="Meus Favoritos" class="container_imagem container_imagem-transparente"></a>
+            <a href="#" class="container__link">
+                <img src="Imagens/Usuário.svg" alt="Meu Perfil" class="container_imagem">
+                <p class="container__texto">Meu Perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa biblioteca os melhores Mods para seu jogo!</p>
+        <input type="search" id="pesquisa" class="banner__pesquisa" placeholder="Qual será sua próxima aventura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+            <!-- Slider main container -->
+            <div class="carrossel__container">
+            <div class="swiper">
+                 <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+  
+                 <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide"><img src="Imagens/CraftTweaker.svg" alt="Mod CraftTweaker"></div>
+                        <div class="swiper-slide"><img src="Imagens/IronChests.svg" alt="Mod IronChests"></div>
+                        <div class="swiper-slide"><img src="Imagens/Storage.svg" alt="Mod Storage Drawer"></div>
+                        <div class="swiper-slide"><img src="Imagens/Tinkers.svg" alt="Mod Tinkers Construct"></div>
+                        <div class="swiper-slide"><img src="Imagens/Chisel.svg" alt="Mod Chisel"></div>
+            </div>
+
+             <!-- If we need navigation buttons -->
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+            </div>
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">Just Enough items</h2>
+                    <p class="descricao__texto">É um mod de visualização de itens e receitas para o Minecraft.</p>
+                </div>
+                <img src="Imagens/JeiFrame.svg" class="descricao__imagem" alt="Imagem da logo do Just Enough Items">
+            </div>
+            <div class="card__botoes">
+                <ul class="botoes">
+                   <a href="#"><li class="botoes__item"><img src="Imagens/Favoritos2.svg" alt="favoritar mod"></li></a> 
+                   <a href="#"><li class="botoes__item"><img src="Imagens/BotaoDownload.svg" alt="baixar mod"></li></a>
+                </ul>
+                <a href="#" class="botoes__ancora">Saiba Mais</a>
+            </div>
+        </div>
+     </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais Baixados</h2>
+            <!-- Slider main container -->
+            <div class="carrossel__container">
+            <div class="swiper">
+                 <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+  
+                 <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide"><img src="Imagens/Applied.svg" alt="Mod Applied Energistics 2"></div>
+                        <div class="swiper-slide"><img src="Imagens/Chisel.svg" alt="Mod Chisel"></div>
+                        <div class="swiper-slide"><img src="Imagens/JEI.svg" alt="Mod Jei"></div>
+                        <div class="swiper-slide"><img src="Imagens/Journey.svg" alt="Mod Journey"></div>
+                        <div class="swiper-slide"><img src="Imagens/Tinkers.svg" alt="Mod Tinkers"></div>
+            </div>
+
+             <!-- If we need navigation buttons -->
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+            </div>
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <img src="Imagens/Estrelinhas.svg" class="descricao__estrelas" alt="icones estrelas">
+                    <h3 class="descricao__titulo">mod do Mês</h3>
+                    <h2 class="descricao__titulo-livro">JourneyMap</h2>
+                    <p class="descricao__texto">Mapeamento em tempo real no jogo ou em um navegador web conforme você explora.</p>
+                </div>
+                <img src="Imagens/Journey 1.svg" class="descricao__imagem" alt="Imagem da logo do JourneyMap">
+            </div>
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="Imagens/Favoritos2.svg" alt="favoritar mod"></li>
+                    <li class="botoes__item"><img src="Imagens/BotaoDownload.svg" alt="baixar mod"></li>
+                </ul>
+                <a href="#" class="botoes__ancora">Saiba Mais</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulos">MODS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Mouse Tweaks</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">JEI</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Clumps</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">AppleSkin</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">BookShelf</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Storage Drawers</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Chisel</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Quark</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de novos mods, forum da comunidade e mais.</p>
+        </div>
+        <input type="email" id="email" autocomplete="email" placeholder="Cadastre seu E-mail" class="contato__email">
+    </section>
+
+    <hr/>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Minecraft Best Mods</h2>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Novos</li>
+            <li class="lista-rodape__item">
+                <img src="Imagens/Alchemistry.svg" alt="Logo mod Alchemistry">
+                <a href="#" class="lista-rodape__link">Alchemistry</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="Imagens/MidnightControls.svg" alt="Logo mod MidnightControls">
+                <a href="#" class="lista-rodape__link">MidnightControls</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Mágia</li>
+            <li class="lista-rodape__item">
+                <img src="Imagens/Agradditions.svg" alt="Logo do mod Agradditions">
+                <a href="#" class="lista-rodape__link">Agradditions</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="Imagens/Mystical.svg" alt="Logo do mod Mystical">
+                <a href="#" class="lista-rodape__link">Mystical</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="Imagens/botania.svg" alt="Logo do mod botania">
+                <a href="#" class="lista-rodape__link">Botania</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="Imagens/Cyclic.svg" alt="Logo do mod Cyclic">
+                <a href="#" class="lista-rodape__link">Cyclic</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="Imagens/IceAndFire.svg" alt="Logo do mod IceAndFire">
+                <a href="#" class="lista-rodape__link">IceAndFire</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="Imagens/Waystones.svg" alt="Logo do mod Waystones">
+                <a href="#" class="lista-rodape__link">Waystones</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="Imagens/Blood.svg" alt="Logo do mod Blood">
+                <a href="#" class="lista-rodape__link">Blood</a>
+            </li>
+        </ul>
+
+            <ul class="lista-rodape">
+                <li class="lista-rodape__titulo">Aventura & RPG</li>
+                <li class="lista-rodape__item">
+                    <img src="Imagens/ArsNouveau.svg" alt="Logo do mod ArsNouveau">
+                    <a href="#" class="lista-rodape__link">ArsNouveau</a>
+                </li>
+                <li class="lista-rodape__item">
+                    <img src="Imagens/FTBquests.svg" alt="Logo do mod FTBquests">
+                    <a href="#" class="lista-rodape__link">FTBquests</a>
+                </li>
+                <li class="lista-rodape__item">
+                    <img src="Imagens/TwilightForest.svg" alt="Logo do mod TwilightForest">
+                    <a href="#" class="lista-rodape__link">TwilightForest</a>
+                </li>
+                <li class="lista-rodape__item">
+                    <img src="Imagens/IronJetpacks.svg" alt="Logo do mod IronJetpacks">
+                    <a href="#" class="lista-rodape__link">IronJetpacks</a>
+                </li>
+                <li class="lista-rodape__item">
+                    <img src="Imagens/Decocraft.svg" alt="Logo do mod Decocraft">
+                    <a href="#" class="lista-rodape__link">Decocraft</a>
+                </li>
+                <li class="lista-rodape__item">
+                    <img src="Imagens/apotheosis.svg" alt="Logo do mod Apotheosis">
+                    <a href="#" class="lista-rodape__link">Apotheosis</a>
+                </li>
+                <li class="lista-rodape__item">
+                    <img src="Imagens/Aquaculture.svg" alt="Logo do mod Aquaculture 2">
+                    <a href="#" class="lista-rodape__link">Aquaculture 2</a>
+                </li>
+            </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+             spaceBetween: 10,
+             slidesPerView: 3,
+             pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+             },
+        });
+    </script>
+</body>
+
+</html>
