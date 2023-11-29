@@ -4,6 +4,8 @@
 
 Um site responsivo focado em apresentar os melhores mods para Minecraft, utilizando a técnica MobileFirst para uma experiência otimizada em dispositivos móveis.
 
+https://minecraft-best-mods.vercel.app
+
 ## Licença
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/RyanLinconl/atravessando-a-rua/blob/main/LICENSE) 
 
